@@ -1,0 +1,2 @@
+# angularPack-cli
+angularJS1的脚手架，使用requirejs模块化加载，路由是ui-router，已适配css和html动态加载，还配了常用的ngStorage管理本地缓存
