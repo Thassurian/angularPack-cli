@@ -26,8 +26,8 @@
           |-wel-come.html
       |-service  //服务文件夹
         |-apiService.js  //封装了一个promise，使用的ajax请求（如果要用还需要单独引入jquery），可以换成其他请求方式，该脚手架只是作为示范
-    |-app.js  //入口文件，配置了一些angular的config，动态注入控制器、服务、模板、过滤器等等
-    |-loader.js  //加载文件
-    |-routes.js  //路由文件，路由都在这里面进行控制
-    |-text.js  //用来动态引用html文件的
+      |-app.js  //入口文件，配置了一些angular的config，动态注入控制器、服务、模板、过滤器等等
+      |-loader.js  //加载文件
+      |-routes.js  //路由文件，路由都在这里面进行控制
+      |-text.js  //用来动态引用html文件的
 ```
