@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" id="ng-app">
+<!--[if lt IE 10]>
+	<html class="lt-ie9-page" id="ng-app">
+<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<title>angularPack-cli</title>
+	</head>
+
+	<body>
+		<!--[if lt IE 10]>
+		    <p>温馨提示：您的浏览器版本过低无法使用系统，建议您升级或更换浏览器后使用。</p>
+		    <p>推荐使用Chrome、FireFox、IE10+等现代浏览器</p>
+		<![endif]-->
+		<!-- 路由界面 -->
+		<div ui-view></div>
+		<noscript>
+		    <p>温馨提示：您的浏览器没有启用Javascript。</p>
+		    <!--<p>IE9用户可以按F12取消禁用脚本的对勾</p>-->
+		</noscript>
+		<!-- 使用require加载js -->
+		<script data-main="js/main.js?version=1.0" src="js/lib/require/require.js"></script>
+	</body>
+</html>
